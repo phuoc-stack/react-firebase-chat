@@ -1,6 +1,10 @@
 const App = () => {
   return (
-    <div className='container'>App</div>
+    <div className='container'>
+      <List />
+      <Chat />
+      <Detail />
+    </div>
   )
 }
 
